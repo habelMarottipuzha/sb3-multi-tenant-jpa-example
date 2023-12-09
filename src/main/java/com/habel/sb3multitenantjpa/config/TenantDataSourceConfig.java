@@ -53,10 +53,7 @@ public class TenantDataSourceConfig extends BaseDataSourceConfig {
         config.setMinimumIdle(2);
         // Add more configurations as needed
 
-        var newDs = new HikariDataSource(config);
-
-//        newDs.setSchema(tenant);
-        return newDs;
+        return new HikariDataSource(config);
     }
 
 

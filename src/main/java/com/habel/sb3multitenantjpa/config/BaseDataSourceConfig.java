@@ -9,7 +9,6 @@ public abstract class BaseDataSourceConfig {
     protected Map<String, Object> hibernateProperties() {
         Map<String, Object> hibernateProperties = new HashMap<>();
         hibernateProperties.put("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
-//        hibernateProperties.put("hibernate.format_sql", "true");
         hibernateProperties.put("hibernate.show_sql", "true");
         return hibernateProperties;
     }
