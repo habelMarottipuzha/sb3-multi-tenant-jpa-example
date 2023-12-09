@@ -1,4 +1,4 @@
-package com.habel.sb3multitenantjpa.entity;
+package com.habel.sb3multitenantjpa.entity.common;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
