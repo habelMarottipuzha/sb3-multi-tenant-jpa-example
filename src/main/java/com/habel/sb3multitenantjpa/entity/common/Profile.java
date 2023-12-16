@@ -10,6 +10,6 @@ import lombok.Data;
 @Table
 public class Profile {
     @Id
-    private Long id;
+    private String id;
     private String schema;
 }
